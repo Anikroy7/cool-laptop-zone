@@ -1,6 +1,14 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
+import ReviewDetails from '../ReviewDetails/ReviewDetails';
 import './Home.css'
 const Home = () => {
+
+
+    const [reviews, setReviews] = useReviews();
+
+    const displayReviews = reviews.slice(0, 3);
+
     return (
         <main>
             <section className="laptop-container">
@@ -19,7 +27,33 @@ const Home = () => {
                 </div>
             </section>
 
-        </main>
+
+
+
+            {/* customer review section */}
+
+
+
+            <section>
+                <h1 className='text-5xl font-bold text-cyan-900 text-center'>Customer Reviews(3)</h1>
+
+                <div className='reviews-container'>
+                    {
+                        displayReviews.map(review => <ReviewDetails
+                            review={review}
+
+                        ></ReviewDetails>)
+                    }
+                </div>
+
+            </section>
+
+            <div className=' w-full text-center'>
+
+                <button className='bg-slate-800 font-bold text-blue-100 px-8 p-2 rounded hover:bg-black m-8'>see all reviews --</button>
+            </div>
+
+        </main >
     );
 };
 

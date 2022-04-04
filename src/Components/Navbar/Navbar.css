@@ -1,0 +1,14 @@
+.navbar {
+    background-color: lightblue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 25px;
+    margin-right: 100px;
+    font-weight: 500;
+    color: rgb(48, 30, 30);
+}

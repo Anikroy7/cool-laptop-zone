@@ -1,6 +1,6 @@
 #  COOL-LAPTOP-ZONE
 
-    live site link: 
+    live site link: https://soft-speculoos-cbd353.netlify.app/
 ## How I made this website???
 
 ## In This website i use react router for spa (single page application).for this every visitor visit this page very comfortivly. i use many kind of component for build this website.

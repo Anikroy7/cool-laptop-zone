@@ -42,6 +42,7 @@ const Home = () => {
                     {
                         displayReviews.map(review => <ReviewDetails
                             review={review}
+                            key={review.id}
 
                         ></ReviewDetails>)
                     }

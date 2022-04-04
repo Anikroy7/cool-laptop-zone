@@ -14,8 +14,8 @@ const Home = () => {
         <main>
             <section className="laptop-container">
                 <div className="laptop-details">
-                    <h1 className='text-5xl font-bold text-slate-800 mt-2'>YOUR COOL LAPTOP</h1>
-                    <h1 className='text-4xl font-bold text-slate-500 mt-4'>COOL ZONE FOR U</h1>
+                    <h1 className='text-5xl font-bold text-slate-800 mt-2'>COOL LAPTOP ZONE</h1>
+                    <h1 className='text-4xl font-bold text-slate-500 mt-4'>CHOSSE BEST FOR U</h1>
                     <p className='mt-8 text-xl font-semibold'>
                         Laptops combine all the input/output components and capabilities of a desktop computer, including the display screen, small speakers, a keyboard, data storage device, sometimes an optical disc drive, pointing devices (such as a touch pad or pointing stick), with an operating system .
                     </p>

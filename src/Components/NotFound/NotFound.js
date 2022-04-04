@@ -3,7 +3,8 @@ import React from 'react';
 const NotFound = () => {
     return (
         <div>
-            <h1>this is not found</h1>
+
+            <img src="../../not-found.png.webp" alt="" />
         </div>
     );
 };

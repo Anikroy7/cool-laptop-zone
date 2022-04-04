@@ -45,7 +45,7 @@ const Dashboard = () => {
         <div>
             <section className='m-4 bg-slate-200 p-4'>
                 <h1 className='text-4xl font-semibold text-center'>Line Chart for sell</h1>
-                <LineChart width={1000} height={500} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+                <LineChart width={800} height={500} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                     <XAxis dataKey="month" />
@@ -55,7 +55,7 @@ const Dashboard = () => {
             </section>
             <section className='bg-red-200 mt-8 m-4 p-6'>
                 <h1 className='text-4xl font-semibold text-center'>Line Chart for revenue</h1>
-                <AreaChart width={1000} height={400} data={data}
+                <AreaChart width={800} height={400} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
                         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">

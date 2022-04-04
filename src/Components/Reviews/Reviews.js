@@ -1,9 +1,16 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
+import ShowAllReviews from '../ShowAllReviews/ShowAllReviews'
 
 const Reviews = () => {
+    const [reviews, setReviews] = useReviews();
+
+
     return (
         <div>
-            <h1>This is reviews component</h1>
+            {
+                reviews.map(review => <ShowAllReviews reviews={review}></ShowAllReviews>)
+            }
         </div>
     );
 };

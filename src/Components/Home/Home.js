@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
 import './Home.css'
@@ -49,8 +50,9 @@ const Home = () => {
             </section>
 
             <div className=' w-full text-center'>
-
-                <button className='bg-slate-800 font-bold text-blue-100 px-8 p-2 rounded hover:bg-black m-8'>see all reviews --</button>
+                <Link to={'/reviews'}>
+                    <button className='bg-slate-800 font-bold text-blue-100 px-8 p-2 rounded hover:bg-black m-8'>see all reviews --</button>
+                </Link>
             </div>
 
         </main >

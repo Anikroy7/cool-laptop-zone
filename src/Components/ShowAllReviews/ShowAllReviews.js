@@ -1,7 +1,7 @@
 import React from 'react';
-import './ReviewDetails.css';
-const ReviewDetails = (props) => {
-    const { name, review, ratings } = props.review
+
+const ShowAllReviews = (props) => {
+    const { name, ratings, review } = props.reviews;
     return (
         <div className='bg-slate-300 p-10 rounded-lg m-2'>
             <h1 className='text-3xl font-bold '>Name: {name}</h1>
@@ -12,4 +12,4 @@ const ReviewDetails = (props) => {
     );
 };
 
-export default ReviewDetails;
+export default ShowAllReviews;

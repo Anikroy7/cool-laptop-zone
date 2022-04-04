@@ -10,7 +10,7 @@ const Home = () => {
                     <p className='mt-8 text-xl font-semibold'>
                         Laptops combine all the input/output components and capabilities of a desktop computer, including the display screen, small speakers, a keyboard, data storage device, sometimes an optical disc drive, pointing devices (such as a touch pad or pointing stick), with an operating system .
                     </p>
-                    <button className='text-xl font-semibold bg-blue-300 rounded p-2 mt-8 hover:bg-cyan-300'>Choose more</button>
+                    <button className='text-xl font-semibold bg-blue-300 rounded px-6 py-4 mt-8 hover:bg-cyan-300'>Choose more</button>
                 </div>
 
                 {/* image section start */}

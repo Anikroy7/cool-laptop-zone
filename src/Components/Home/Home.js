@@ -19,7 +19,7 @@ const Home = () => {
                     <p className='mt-4 text-xl '>
                         Laptops combine all the input/output components and capabilities of a desktop computer, including the display screen, small speakers, a keyboard, data storage device, sometimes an optical disc drive.
                     </p>
-                    <button className='text-xl font-semibold bg-blue-300 rounded px-6 py-4 mt-8 hover:bg-cyan-300'>Choose more</button>
+                    <button className='text-xl font-semibold bg-blue-300 rounded px-6 py-4 mt-8 hover:bg-cyan-300 transition duration-500	ease-in-out	'>Choose more</button>
                 </div>
 
                 {/* image section start */}
@@ -52,7 +52,7 @@ const Home = () => {
 
             <div className=' w-full text-center'>
                 <Link to={'/reviews'}>
-                    <button className='bg-slate-800 font-bold text-blue-100 px-8 p-2 rounded hover:bg-black m-8'>see all reviews --</button>
+                    <button className='bg-slate-800 font-bold text-blue-100 px-8 p-2 rounded hover:bg-black m-8  transition duration-700 ease-in-out	'>see all reviews --</button>
                 </Link>
             </div>
 

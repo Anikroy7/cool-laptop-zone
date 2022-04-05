@@ -1,0 +1,18 @@
+.all-details-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.all-details-image-container img {
+
+    height: 370px;
+    width: 400px;
+    border: 3px solid seagreen;
+    border-radius: 20px;
+}
+
+.all-details-container {
+    width: 100%;
+
+}

@@ -1,0 +1,16 @@
+.review-image-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+
+.review-image-container img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid rgba(16, 16, 71, 0.74);
+}

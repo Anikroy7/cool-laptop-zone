@@ -3,36 +3,42 @@
         "id": "624ad5d6e45b08a1c6b0333f",
         "name": "Sus Moreno",
         "review": "This game has a lot going for it. Only issue is the bugs. 1. Somthings take a while to load. 2. The sprites for the laptop will somtimes",
-        "ratings": "5 star"
+        "ratings": "5 star",
+        "image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
     },
     {
         "id": "624ad5d616bc8c0452e1dab7",
         "name": "Elba Dean",
         "review": "It has alot of potential, but i have some complants, when switching to diffrent screens, (like reserching and everything elts) it always takes a long time to load.",
-        "ratings": "4 star"
+        "ratings": "4 star",
+        "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
     },
     {
         "id": "624ad5d61613b0ba748e967c",
         "name": "Nicole Serrano",
         "review": "Too many bugs. This developer is known for releasing buggy games, getting a bit of money from in-game purchases or ads then simply abandoning them! Biggest  ",
-        "ratings": "5 star"
+        "ratings": "5 star",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
     {
         "id": "624ad5d6e1b67825271112bc",
         "name": "Cheryl Christian",
         "review": "I played Phone Tycoon 2 which was excellent without any bugs. I expected the same from this game but it has failed to meet up my expectations. ",
-        "ratings": "5 star"
+        "ratings": "5 star",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     },
     {
         "id": "624ad5d6f0af75ea3daf4372",
         "name": "Cash Boyer",
         "review": "It is as always a great tycoon game with a lot potential. But giving it two stars because of lack of optimization and a few bugs like two tracks playing simultaneously at the same time and not being able.",
-        "ratings": "3 star"
+        "ratings": "3 star",
+        "image": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
     {
         "id": "624ad5d6982af997d52c6e3f",
         "name": "Curry Pace",
         "review": "İts a great game but lacks some huge things. Firstly, the reviews you get after you release a smartphone are random. No matter how much you research and unlock new things.",
-        "ratings": "2 star"
+        "ratings": "2 star",
+        "image": "https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     }
 ]

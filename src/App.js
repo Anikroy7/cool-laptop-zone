@@ -4,6 +4,7 @@ import './App.css';
 import About from './Components/About/About';
 import Blogs from './Components/Blogs/Blogs';
 import Dashboard from './Components/DashBoard/Dashboard';
+import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import NotFound from './Components/NotFound/NotFound';
@@ -26,7 +27,7 @@ function App() {
         <Route path='*' element={<NotFound />}></Route>
 
       </Routes>
-
+      <Footer></Footer>
     </div>
   );
 }

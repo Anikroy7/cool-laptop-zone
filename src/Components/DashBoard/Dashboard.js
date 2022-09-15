@@ -4,19 +4,19 @@ import { Area, AreaChart, CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis 
 const data = [
     {
         "month": "Mar",
-        "investment": 100000,
+        "investment": 150000,
         "sell": 241,
         "revenue": 10401
     },
     {
         "month": "Apr",
-        "investment": 200000,
+        "investment": 208000,
         "sell": 423,
         "revenue": 24500
     },
     {
         "month": "May",
-        "investment": 500000,
+        "investment": 500900,
         "sell": 726,
         "revenue": 67010
     },
